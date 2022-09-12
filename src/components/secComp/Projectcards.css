@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+*{
+    margin: 0;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+   
+}
+.cards{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 18rem;
+    left: 2rem;
+   
+   
+
+}
+
+.cards ul li{
+    list-style: none;
+    display: inline-block;
+    width: 40rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition:all 0.25s ease-in-out;
+}
+.cards ul li:hover{
+    transform: translateY(-0.6rem);
+    
+    
+}
+.header{
+    font-family: 'Aboreto', cursive;
+    font-weight:5000;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    position: relative;
+    top:10rem;
+}
+

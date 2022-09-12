@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@-webkit-keyframes fadeOut {
+  0% { opacity: 1;}
+  99% { opacity: 0.01;width: 100%; height: 100%;}
+  100% { opacity: 0;width: 0; height: 0;}
+}  
+@keyframes fadeOut {
+  0% { opacity: 1;}
+  99% { opacity: 0.01;width: 100%; height: 100%;}
+  100% { opacity: 0;width: 0; height: 0;}
+}
+
+.display-none.on{
+  display: block;
+  -webkit-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  border: 0;
+  margin:0;
+  box-sizing: border-box;
+  
+}
+.icon-box li{
+  position: inherit;
+  top:29%;
+  list-style: none;
+ font-size: 3.4rem;
+cursor: pointer;
+ margin-top: .2rem;
+ transition: 0.7s all;
+ border-radius: 1rem;
+
+
+}
+ 
+ section{
+  height: 100vh;
+ 
+
+ }
+ #intro{
+  background-image: url("quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-align: center;
+  scroll-behavior: smooth;
+
+ }
+ #projects{
+  background-image: url("quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  color: #FFFFFF;
+  text-align: center;
+ }
+ #contactme{
+  background-image: url("quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+ 
+  text-align: center;
+ }
+ #aboutme{
+  background-image: url("quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  color: #FFFFFF;
+  text-align: center;
+ }
+ .one.hide-opacity{
+  opacity: 0;
+}
+ .two{
+ background-color: aliceblue;
+ 
+ }
+
+
+
+
+
+ 
