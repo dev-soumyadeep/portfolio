@@ -1,0 +1,86 @@
+.blank-line {
+  margin: 0;
+}
+.about-me {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  font-weight: 800;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 693px;
+  height: 165px;
+}
+.account-icon {
+  position: absolute;
+  top: 0;
+  left: 464px;
+  width: 108px;
+  height: 117px;
+  overflow: hidden;
+}
+.header,
+.info-box-child {
+  position: absolute;
+  top: 25px;
+  left: 407px;
+  width: 693px;
+  height: 200px;
+}
+.info-box-child {
+  top: 93.18px;
+  left: 0;
+  border-radius: 72px;
+  background-color: #d9d9d9;
+  width: 1009px;
+  height: 681.82px;
+}
+.blue-1-1 {
+  position: absolute;
+  top: 0;
+  left: 401.13px;
+  border-radius: 88px;
+  width: 205.62px;
+  height: 187.29px;
+  object-fit: cover;
+}
+.info-box {
+  position: absolute;
+  top: 164px;
+  left: 249px;
+  width: 1009px;
+  height: 775px;
+}
+.hi-im-soumyadeep {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.hi-im-soumyadeep-container {
+  position: absolute;
+  top: 387px;
+  left: 337px;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--color-black);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 767px;
+  height: 552px;
+}
+.desktop-5 {
+  position: relative;
+  background: linear-gradient(
+    116.51deg,
+    rgba(7, 4, 32, 0.69),
+    rgba(18, 13, 59, 0.69) 95.64%,
+    rgba(27, 20, 82, 0.69),
+    rgba(17, 12, 57, 0.69)
+  );
+  width: 100%;
+  height: 1034px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--w-background);
+  font-family: var(--font-montserrat-alternates);
+}
