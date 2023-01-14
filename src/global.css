@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat-alternates: "Montserrat Alternates";
+  --font-noto-sans: "Noto Sans";
+  --font-lexend: Lexend;
+  --font-raleway: Raleway;
+  --font-space-grotesk: "Space Grotesk";
+
+  /* font sizes */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 48px;
+  --font-size-6xl: 64px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-gray-100: #666;
+  --gray-1: #333;
+  --color-gray-300: #2d2a55;
+  --color-gray-400: rgba(255, 255, 255, 0.5);
+  --w-background: #fff;
+  --keatext-purple: #7a5cfa;
+  --color-indigo-200: #7b4ae2;
+  --color-indigo-300: rgba(123, 74, 226, 0.1);
+
+  /* Gaps */
+  --gap-md: 8px;
+
+  /* Paddings */
+  --padding-md: 16px;
+
+  /* border radiuses */
+  --br-xs: 8px;
+  --br-sm: 16px;
+  --br-md: 23px;
+  --br-lg: 38px;
+}
